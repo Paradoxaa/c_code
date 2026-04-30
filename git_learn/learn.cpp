@@ -1,6 +1,15 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
-    std::cout << "Hello, World!11" << std::endl;
+    int arr[3][3] = {
+        {1, 1, 1},
+        {1, 1, 1},
+        {1, 1, 1}
+    };
+
+    cout << "Hello, World!11" << endl;
     return 0;
 }
+
