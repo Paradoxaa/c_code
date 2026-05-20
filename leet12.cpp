@@ -9,6 +9,7 @@ int main(){
     if(getline(cin,line)){
         stringstream ss(line);
         int a;
+        cout<<"shuchu";
         while(ss>>a){
             nums.push_back(a);
         }
